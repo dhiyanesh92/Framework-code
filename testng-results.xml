@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14534" started-at="2019-02-12T08:24:34Z" finished-at="2019-02-12T08:24:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14534" started-at="2019-02-12T08:24:34Z" finished-at="2019-02-12T08:24:49Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@26be92ad]" name="initialize" is-config="true" duration-ms="8816" started-at="2019-02-12T21:24:34Z" finished-at="2019-02-12T21:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@26be92ad]" name="basePageNavigation" duration-ms="3501" started-at="2019-02-12T21:24:43Z" data-provider="getData" finished-at="2019-02-12T21:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhiyanesh299@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.HomePage@26be92ad]" name="close" is-config="true" duration-ms="2183" started-at="2019-02-12T21:24:47Z" finished-at="2019-02-12T21:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
