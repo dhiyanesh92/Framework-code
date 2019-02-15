@@ -21,7 +21,7 @@ public class HomePage extends base{ // inherits the properties of base.java clas
 	{
 		driver=initializeDriver();
 		log.info("driver is initialized");
-		driver.get("https://www.facebook.com/");
+		driver.get(Prop.getProperty("url"));
 		log.info("navigated to home page");
 	}
 	@Test(dataProvider="getData") 
